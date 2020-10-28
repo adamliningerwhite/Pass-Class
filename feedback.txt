@@ -1,0 +1,5 @@
+How long did you spend on this assignment?
+Total of 6-7 hours. Time was spent researching algorithms, testing performance of various model types, and mapping known ML libraries in R to their Python equivalents.
+
+Any comments or feedback? Things you found interesting? Things you found challenging? Things you found boring?
+Generally favorable opinion of this assignment. Nothing stood out in particular, but we though it was pretty cool. 
