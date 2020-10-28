@@ -4,7 +4,7 @@ For our classifier, we chose to build a logistic regression model trained on 700
 
 We tried using several other classification models (random forest, svm, and neural nets) that often give higher accuracy at the cost of longer training and prediction time. Ultimately, the improvements in accuracy weren't worth the expense, and we settled on a simpler logistic regression model that gives 82% test accuracy. 
 
-We drew on prior knowledge of ML and data science from MATH154 - Computational Statistics and MATH158 - Statistical Linear Models to complete this assignment. These classes use R and the RStudio IDE, so this assignment marks our first experience using Python libraries for data cleaning and model building. The transition was fairly smooth, and we were able to quickly get our hands dirty with the help of library documentation and online beginner tutorials. 
+We drew on prior knowledge of ML and data science from MATH154 - Computational Statistics and MATH158 - Statistical Linear Models to complete this assignment. These classes use R and the RStudio IDE, so this assignment marks our first experience using Python libraries for data cleaning and model building. The transition was fairly smooth, and we made quick progress with the help of library documentation and online beginner tutorials. 
 
 ## Dependencies
 Given our newness to python ML libraries and dependencies, we may not perfectly describe the setup process but will try our best. 
@@ -19,17 +19,17 @@ Our program imports the following libraries:
 
 Before running the program, macOS users should follow these steps (double-checked on a clean Mac):
 <ul>
-    <li>Install python3: `brew install python`</li>
-    <li>Install NumPy: `pip install numpy`</li>
-    <li>Install Pandas: `pip install numpy` </li>
-    <li>Install sklearn: `pip install -U scikit-learn`</li>
+    <li>Install python3: <code>brew install python</code></li>
+    <li>Install NumPy: <code>pip install numpy</code></li>
+    <li>Install Pandas: <code>pip install pandas</code> </li>
+    <li>Install sklearn: <code>pip install -U scikit-learn</code></li>
 </ul>
 
 ## Running Classifier
 Steps for running our program are simple: 
 <ol>
     <li>cd to directory containing classify.py</li>
-    <li>Type `python classify.py` and hit enter</li>
+    <li>Type <code>python classify.py</code> and hit enter</li>
     <li>Give the program a few moments to read data and build the model </li>
     <li>When prompted for input, type the password you want to classify and hit enter</li>
 </ol>
