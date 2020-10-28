@@ -1,5 +1,7 @@
 # Pass-Class
 
+GitHub repo: https://github.com/adamliningerwhite/Pass-Class 
+
 For our classifier, we chose to build a logistic regression model trained on 700,000 (password, strength) pairs obtained via Kaggle. More information on how the training data was collected and classified can be found <a href="https://www.kaggle.com/bhavikbb/password-strength-classifier-dataset"> here </a>.
 
 We tried using several other classification models (random forest, svm, and neural nets) that often give higher accuracy at the cost of longer training and prediction time. Ultimately, the improvements in accuracy weren't worth the expense, and we settled on a simpler logistic regression model that gives 82% test accuracy. 
